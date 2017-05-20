@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking
+    username: postgres
+    password: postgres
+    initialize: true
+
+  rabbitmq:
+    password: rabbitmq
+    port: 5672
+    username: rabbitmq
+    queuename: logging
+server:
+  port: 8081
+
+
+---
+#spring:
+#  profiles: container
+#  datasource:
+#    url: jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}
+#    username: ${DATABASE_USER}
+#    password: ${DATABASE_PASSWORD}
+#    initialize: true
+
+spring:
+  profiles: container
+  datasource:
+    url: jdbc:postgresql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+    initialize: true
+  rabbitmq:
+      password: ${RABBIT_MQ_PASS}
+      port: ${RABBIT_MQ_PORT}
+      username: ${RABBIT_MQ_USER}
+      queuename: logging
+      host: ${RABBIT_MQ_HOST}
+server:
+  port: 8081
