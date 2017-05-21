@@ -69,4 +69,5 @@ Unfortunately due to time constraints certain enhancements needed to be cut down
 * Eliminating SimpleDateFormatter in logging-system
 * Encryption of client & account ids when caling APIs
 * Account number generation
+* Maven common module & parent module
 
