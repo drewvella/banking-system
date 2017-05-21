@@ -1,12 +1,8 @@
 package com.demo.logging.api;
 
 import lombok.Data;
-import org.joda.time.DateTime;
 
 import java.io.Serializable;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * @author andrewvella

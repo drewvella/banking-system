@@ -1,6 +1,5 @@
 package com.demo.bank.data.repository;
 
-import com.demo.bank.data.model.BankingUser;
 import com.demo.bank.data.model.Client;
 import org.springframework.data.repository.CrudRepository;
 

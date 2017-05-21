@@ -2,17 +2,12 @@ package com.demo.logging.data.mapping;
 
 import com.demo.logging.api.ApiLogData;
 import com.demo.logging.data.model.LoggingData;
-import com.demo.logging.service.LoggingService;
 import com.demo.logging.service.impl.LoggingServiceImpl;
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.MappingContext;
 import ma.glasnost.orika.impl.ConfigurableMapper;
-import org.joda.time.DateTime;
-import org.joda.time.format.ISODateTimeFormat;
 import org.springframework.stereotype.Component;
-
-import java.time.Instant;
 
 /**
  * @author andrewvella

@@ -3,7 +3,6 @@ package com.demo.bank.data.repository;
 import com.demo.bank.data.model.Account;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.expression.spel.ast.LongLiteral;
 
 /**
  * @author andrewvella

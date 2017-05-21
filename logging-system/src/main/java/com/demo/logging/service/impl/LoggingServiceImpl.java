@@ -6,11 +6,8 @@ import com.demo.logging.data.model.LoggingData;
 import com.demo.logging.data.repository.LoggingDataRepository;
 import com.demo.logging.object.LogMessage;
 import com.demo.logging.service.LoggingService;
-import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import java.text.DateFormat;

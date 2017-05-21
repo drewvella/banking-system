@@ -1,7 +1,5 @@
 package com.demo.bank.exception;
 
-import java.util.IllegalFormatCodePointException;
-
 /**
  * @author andrewvella
  * @since 21/05/2017
